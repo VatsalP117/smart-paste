@@ -9,6 +9,8 @@ Built as a learning project in AI engineering: context engineering, structured
 output, tiered routing (rules → Jev → LLM), calibrated confidence, grounding,
 and eval-driven development.
 
+The full plan, phase by phase, is in [`docs/PLAN.md`](docs/PLAN.md).
+
 ## Status
 
 **Phase 0** — data contracts and the eval suite. No model calls yet, on purpose:

@@ -33,6 +33,7 @@ When working here:
 - `evals/score.py` — scoring; `evals/run.py` — runner; `evals/baselines.py` — fake pipelines.
 - `tools/capture_schema.js` — DevTools snippet to capture a form's schema.
 - `tests/` — pytest.
+- `docs/PLAN.md` — the complete project plan, phase by phase.
 
 ## Commands
 
@@ -51,4 +52,5 @@ Never commit `.env` or keys. See `.env.example`.
 ## Current phase
 
 Phase 0: contracts, labelling guide, 30 eval cases, scorer. No AI calls yet.
-The full design doc lives in Claude Docs ("Smart Paste — Solution Design").
+The full plan (architecture, models, phases, open questions) is in `docs/PLAN.md`.
+Read it before starting a new phase, and update it when a decision changes.
