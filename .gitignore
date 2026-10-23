@@ -1,0 +1,20 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+
+# eval run outputs (keep the folder, not the runs)
+evals/results/*
+!evals/results/.gitkeep
+
+# traces may contain clipboard text
+traces/
+
+.DS_Store

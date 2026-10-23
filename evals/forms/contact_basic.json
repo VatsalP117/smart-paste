@@ -1,0 +1,10 @@
+{
+  "name": "contact_basic",
+  "url_host": "example.com",
+  "fields": [
+    {"id": "full_name", "kind": "text", "label": "Full name", "autocomplete": "name", "required": true},
+    {"id": "email", "kind": "email", "label": "Email", "autocomplete": "email", "required": true},
+    {"id": "phone", "kind": "tel", "label": "Mobile number", "autocomplete": "tel", "pattern": "[0-9]{10}", "max_length": 10},
+    {"id": "message", "kind": "textarea", "label": "Message"}
+  ]
+}

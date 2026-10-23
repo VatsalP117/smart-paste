@@ -1,0 +1,20 @@
+id: address-003
+form: address_india
+slices: [missing_fields, noise]
+clipboard: |
+  hey can you send the sweets to my cousin, address is
+  Divya Menon, 21/3 Lake View Road, Kadavanthra, Kochi 682020
+  thanks!! 🙏
+expected:
+  full_name: Divya Menon
+  phone: null
+  pincode: "682020"
+  address_line1: 21/3 Lake View Road
+  address_line2: Kadavanthra
+  landmark: null
+  city: Kochi
+  state: Kerala
+notes: >
+  No phone in the paste: the phone must stay empty, never invented.
+  State is not written; inferring Kerala from the PIN is allowed because a
+  PIN lookup can ground it. Surrounding chat text is noise.

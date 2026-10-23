@@ -1,0 +1,25 @@
+id: irctc-001
+form: irctc_passengers
+slices: [group_chat, repeated_rows, mixed_language]
+clipboard: |
+  bro add these for tmrw train
+  Rahul 24 M
+  priya - 23 - female
+  Arjun (25) male, veg
+expected:
+  passenger.0.name: Rahul
+  passenger.0.age: "24"
+  passenger.0.gender: Male
+  passenger.0.berth: null
+  passenger.1.name: Priya
+  passenger.1.age: "23"
+  passenger.1.gender: Female
+  passenger.1.berth: null
+  passenger.2.name: Arjun
+  passenger.2.age: "25"
+  passenger.2.gender: Male
+  passenger.2.berth: null
+  mobile: null
+notes: >
+  Each line uses a different format. "veg" is a meal preference, not a berth.
+  No berth was asked for, so berth stays empty rather than "No Preference".

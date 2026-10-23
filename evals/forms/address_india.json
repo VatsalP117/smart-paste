@@ -1,0 +1,84 @@
+{
+  "name": "address_india",
+  "url_host": "shop.example.in",
+  "fields": [
+    {
+      "id": "full_name",
+      "kind": "text",
+      "label": "Full name (First and Last name)",
+      "autocomplete": "name",
+      "required": true
+    },
+    {
+      "id": "phone",
+      "kind": "tel",
+      "label": "Mobile number",
+      "autocomplete": "tel",
+      "pattern": "[0-9]{10}",
+      "max_length": 10,
+      "required": true
+    },
+    {
+      "id": "pincode",
+      "kind": "text",
+      "label": "Pincode",
+      "autocomplete": "postal-code",
+      "pattern": "[1-9][0-9]{5}",
+      "max_length": 6,
+      "required": true
+    },
+    {
+      "id": "address_line1",
+      "kind": "text",
+      "label": "Flat, House no., Building, Company, Apartment",
+      "autocomplete": "address-line1",
+      "required": true
+    },
+    {
+      "id": "address_line2",
+      "kind": "text",
+      "label": "Area, Street, Sector, Village",
+      "autocomplete": "address-line2"
+    },
+    {
+      "id": "landmark",
+      "kind": "text",
+      "label": "Landmark",
+      "placeholder": "E.g. near Apollo Hospital"
+    },
+    {
+      "id": "city",
+      "kind": "text",
+      "label": "Town/City",
+      "autocomplete": "address-level2",
+      "required": true
+    },
+    {
+      "id": "state",
+      "kind": "select",
+      "label": "State",
+      "autocomplete": "address-level1",
+      "required": true,
+      "options": [
+        "Andhra Pradesh",
+        "Assam",
+        "Bihar",
+        "Delhi",
+        "Goa",
+        "Gujarat",
+        "Haryana",
+        "Karnataka",
+        "Kerala",
+        "Madhya Pradesh",
+        "Maharashtra",
+        "Odisha",
+        "Punjab",
+        "Rajasthan",
+        "Tamil Nadu",
+        "Telangana",
+        "Uttar Pradesh",
+        "West Bengal"
+      ]
+    }
+  ]
+}

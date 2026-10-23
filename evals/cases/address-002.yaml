@@ -1,0 +1,17 @@
+id: address-002
+form: address_india
+slices: [run_on, abbreviations, landmarks, family]
+clipboard: "Appa address - R Venkatesan no 7 2nd cross st near saravana stores T nagar chn 600017 TN ph 98400 55511"
+expected:
+  full_name: R Venkatesan
+  phone: "9840055511"
+  pincode: "600017"
+  address_line1: No 7
+  address_line2: 2nd Cross St, T Nagar
+  landmark: Near Saravana Stores
+  city: Chennai
+  state: Tamil Nadu
+notes: >
+  No punctuation. "chn" -> Chennai and "TN" -> Tamil Nadu are allowed
+  transformations. "Appa address" is a distractor, not part of the name.
+  Phone has a space inside; the field pattern needs 10 digits.

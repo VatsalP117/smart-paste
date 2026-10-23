@@ -1,0 +1,162 @@
+{
+  "name": "irctc_passengers",
+  "url_host": "www.irctc.co.in",
+  "fields": [
+    {
+      "id": "passenger.0.name",
+      "kind": "text",
+      "label": "Passenger Name",
+      "nearby_text": "Passenger 1",
+      "max_length": 16,
+      "required": true,
+      "group": "passenger",
+      "row": 0
+    },
+    {
+      "id": "passenger.0.age",
+      "kind": "number",
+      "label": "Age",
+      "nearby_text": "Passenger 1",
+      "required": true,
+      "group": "passenger",
+      "row": 0
+    },
+    {
+      "id": "passenger.0.gender",
+      "kind": "select",
+      "label": "Gender",
+      "nearby_text": "Passenger 1",
+      "options": [
+        "Male",
+        "Female",
+        "Transgender"
+      ],
+      "required": true,
+      "group": "passenger",
+      "row": 0
+    },
+    {
+      "id": "passenger.0.berth",
+      "kind": "select",
+      "label": "Berth Preference",
+      "nearby_text": "Passenger 1",
+      "options": [
+        "No Preference",
+        "Lower",
+        "Middle",
+        "Upper",
+        "Side Lower",
+        "Side Upper"
+      ],
+      "group": "passenger",
+      "row": 0
+    },
+    {
+      "id": "passenger.1.name",
+      "kind": "text",
+      "label": "Passenger Name",
+      "nearby_text": "Passenger 2",
+      "max_length": 16,
+      "required": false,
+      "group": "passenger",
+      "row": 1
+    },
+    {
+      "id": "passenger.1.age",
+      "kind": "number",
+      "label": "Age",
+      "nearby_text": "Passenger 2",
+      "required": false,
+      "group": "passenger",
+      "row": 1
+    },
+    {
+      "id": "passenger.1.gender",
+      "kind": "select",
+      "label": "Gender",
+      "nearby_text": "Passenger 2",
+      "options": [
+        "Male",
+        "Female",
+        "Transgender"
+      ],
+      "required": false,
+      "group": "passenger",
+      "row": 1
+    },
+    {
+      "id": "passenger.1.berth",
+      "kind": "select",
+      "label": "Berth Preference",
+      "nearby_text": "Passenger 2",
+      "options": [
+        "No Preference",
+        "Lower",
+        "Middle",
+        "Upper",
+        "Side Lower",
+        "Side Upper"
+      ],
+      "group": "passenger",
+      "row": 1
+    },
+    {
+      "id": "passenger.2.name",
+      "kind": "text",
+      "label": "Passenger Name",
+      "nearby_text": "Passenger 3",
+      "max_length": 16,
+      "required": false,
+      "group": "passenger",
+      "row": 2
+    },
+    {
+      "id": "passenger.2.age",
+      "kind": "number",
+      "label": "Age",
+      "nearby_text": "Passenger 3",
+      "required": false,
+      "group": "passenger",
+      "row": 2
+    },
+    {
+      "id": "passenger.2.gender",
+      "kind": "select",
+      "label": "Gender",
+      "nearby_text": "Passenger 3",
+      "options": [
+        "Male",
+        "Female",
+        "Transgender"
+      ],
+      "required": false,
+      "group": "passenger",
+      "row": 2
+    },
+    {
+      "id": "passenger.2.berth",
+      "kind": "select",
+      "label": "Berth Preference",
+      "nearby_text": "Passenger 3",
+      "options": [
+        "No Preference",
+        "Lower",
+        "Middle",
+        "Upper",
+        "Side Lower",
+        "Side Upper"
+      ],
+      "group": "passenger",
+      "row": 2
+    },
+    {
+      "id": "mobile",
+      "kind": "tel",
+      "label": "Mobile Number",
+      "nearby_text": "Contact details",
+      "pattern": "[0-9]{10}",
+      "max_length": 10,
+      "required": true
+    }
+  ]
+}

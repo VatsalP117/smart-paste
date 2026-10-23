@@ -1,0 +1,20 @@
+id: address-001
+form: address_india
+slices: [clean, family]
+clipboard: |
+  Lakshmi Narayanan
+  9840012345
+  Flat 4B, Sri Sai Apartments
+  12, Gandhi Street, Adyar
+  Chennai 600020
+  Tamil Nadu
+expected:
+  full_name: Lakshmi Narayanan
+  phone: "9840012345"
+  pincode: "600020"
+  address_line1: Flat 4B, Sri Sai Apartments
+  address_line2: 12, Gandhi Street, Adyar
+  landmark: null
+  city: Chennai
+  state: Tamil Nadu
+notes: The easy case. If this fails, something basic is broken.

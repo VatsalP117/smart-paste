@@ -1,0 +1,14 @@
+id: contact-001
+form: contact_basic
+slices: [clean, signature]
+clipboard: |
+  Thanks,
+  Karthik Subramanian
+  Senior Engineer, Example Labs
+  karthik.s@example.com | +91 98450 67890
+expected:
+  full_name: Karthik Subramanian
+  email: karthik.s@example.com
+  phone: "9845067890"
+  message: null
+notes: An email signature. The +91 prefix must be dropped to fit the 10-digit pattern.
